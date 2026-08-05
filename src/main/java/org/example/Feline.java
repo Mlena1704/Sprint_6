@@ -20,4 +20,5 @@ public class Feline implements Predator {
     public int getCount(int kittensCount) {
         return kittensCount;
     }
+
 }

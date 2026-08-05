@@ -15,6 +15,7 @@ public class FelineParameterizedTest {
     public FelineParameterizedTest(int inputKittens, int expectedKittens) {
         this.inputKittens = inputKittens;
         this.expectedKittens = expectedKittens;
+
     }
 
     @Parameterized.Parameters

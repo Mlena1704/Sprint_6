@@ -19,6 +19,7 @@ public class FelineTest {
     public void testGetFamilyReturnsFelineString() {
         Feline feline = new Feline();
 
+
         assertEquals("Кошачьи", feline.getFamily());
     }
 
