@@ -17,6 +17,7 @@ public class LionParameterizedTest {
     public LionParameterizedTest(String sex, boolean expectedHasMane) {
         this.sex = sex;
         this.expectedHasMane = expectedHasMane;
+
     }
 
     @Parameterized.Parameters

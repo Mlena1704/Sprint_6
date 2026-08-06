@@ -24,6 +24,7 @@ public class Lion {
 
     public boolean doesHaveMane() {
         return hasMane;
+
     }
 
     public List<String> getFood() throws Exception {

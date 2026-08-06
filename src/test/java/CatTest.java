@@ -18,6 +18,8 @@ public class CatTest {
     public void testGetSoundReturnsMeow() {
         Cat cat = new Cat(predator);
 
+
+
         assertEquals("Мяу", cat.getSound());
     }
 

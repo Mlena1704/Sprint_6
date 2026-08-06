@@ -13,6 +13,7 @@ import static org.junit.Assert.assertThrows;
 @RunWith(MockitoJUnitRunner.class)
 public class LionTest {
 
+
     @Mock
     private Predator predator;
 
@@ -30,7 +31,6 @@ public class LionTest {
 
     @Test
     public void testGetFoodReturnsCorrectList() throws Exception {
-        // Создаем объект льва с корректным полом
         Lion lion = new Lion(predator, "Самец");
 
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
@@ -41,7 +41,6 @@ public class LionTest {
 
     @Test
     public void testGetKittensReturnsCorrectCount() throws Exception {
-        // Создаем объект льва
         Lion lion = new Lion(predator, "Самка");
 
         Mockito.when(feline.getCount()).thenReturn(1);
